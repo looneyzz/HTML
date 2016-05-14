@@ -1,0 +1,40 @@
+/* CSS Document */
+
+table{    
+    width: 456px;
+    height: 133px;        
+}
+
+table, tr, td, thead {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    font-family: Calibri;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+    
+th{
+    background-color: #54b706;
+    border: 1px solid silver;
+    padding: 6px;
+    font-weight: 200;
+    text-align: left;
+    color: white       
+}
+
+.germany:before {
+    content: url("germany.png");
+}
+
+.mexico:before {
+    content: url("mexico.png");
+}
+
+.england:before {
+    content: url("england.png");
+}
+
+tr:nth-child(even) {
+    background-color: #ececd8;
+}
+

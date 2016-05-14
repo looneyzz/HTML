@@ -1,0 +1,47 @@
+/* CSS Document */
+
+table{    
+    width: 304px;
+    height: 205px;
+    background-color: #595959;
+    font-family: Helvetica;    
+}
+
+th{
+    font-size: 12pt;
+    font-weight: 200;
+    text-align: left;
+    color: #a4aeac;       
+}
+
+td.col1{
+    width: 92px;    
+    font-size: 8pt;
+    font-style: italic;
+    color: white;
+}
+span{
+    font-size: 8pt;
+    font-weight: bold;
+    color: #ee0002;
+}
+
+td.ycell{
+    font-size: 8pt;
+    color: #e3d887;    
+}
+
+td.gcell{
+    font-size: 8pt;
+    color: #a5a69a;    
+}
+
+td.ocell{
+    font-size: 8pt;
+    color: #df673e;    
+}
+
+
+
+    
+    
