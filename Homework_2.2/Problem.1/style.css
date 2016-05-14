@@ -1,0 +1,17 @@
+/* CSS document */
+
+body {
+    font-family: Consolas;
+    color: #0094ff;
+    letter-spacing: -1pt;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-family: CommercialScript BT;
+    font-size: 28pt;    
+}
+
