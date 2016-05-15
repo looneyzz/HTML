@@ -1,0 +1,93 @@
+/* CSS document */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.window {
+    background: linear-gradient(70deg,#bcdcfb 20%, #abcbeb, #bcdcfb 60%);
+    width: 458px;
+    height: 447px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.window span {
+    font-size: 11pt;
+    position: relative;
+    top: -2pt;    
+}
+
+#win-buttons {
+        position: relative;
+        top: -4pt;
+        left: 200pt;
+}
+
+.menus {
+    background-color: #e6eff8;
+    border: 1px solid #b8b8b8;
+    margin-top: 5px;
+    padding-top: -5px;
+    width: 458px;
+    height: 412px;
+}
+
+.menus ul {
+    margin: 0;
+    padding: 0 0 2px 5px;
+    background: linear-gradient(white, #d3daed)
+}
+
+.menus ul li {
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 10px;
+}
+
+.menus ul li::first-letter {
+    text-decoration: underline;
+}
+
+.display, .binary, .functions, td {
+    border: 1px solid #b8b8b8;
+    border-radius: 4px;
+    margin: 5px;
+    
+}
+
+.display {
+    background: linear-gradient(#e5effa,#fcfdfe);
+    height: 60px;    
+}
+
+#output {
+    float: right;
+    padding-top: 24px;
+    padding-right: 5px;
+    font-size: 21pt;    
+}
+
+table { width: 100% }
+
+.zeros {
+    font-family: Consolas;
+    font-size: 10pt;
+    color: #1d3067;
+    text-align: center;
+      
+}
+
+.index td{
+    font-size: 10pt;
+    color: #8e8e8e;       
+    padding-left: 12px 
+}
+
+.index td:last-child {
+    text-align: right;
+    padding-right: 12px
+}
+
+
+
+
+
